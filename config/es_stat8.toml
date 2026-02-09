@@ -1,0 +1,31 @@
+
+["Stat 8"]
+	#Defines if the stat is on or off
+	"Stat 8" = true
+	#Defines which name do you want to use for this stat in the menu
+	"Stat 8 Name " = "Luck"
+	#Defines the ID of the attribute, example: minecraft:generic.attack_speed
+	"Stat 8 ID" = "minecraft:generic.luck"
+	#The value added to the attribute per level
+	"Stat 8 Value" = 0.1
+	"Stat 8 Max" = 100.0
+	"Max Stat 8" = 0.0
+
+["Extra 1"]
+	"Stat 8 Extra 1 ID" = "aaa:aaaas"
+	"Stat 8 Extra 1 Value" = 3.0
+	"Stat 8 Extra 1 LVL Req" = 4.0
+	"Stat 8 Extra 1 Max" = 4.0
+
+["Extra 2"]
+	"Stat 8 Extra 2 ID" = "aaa:ddd"
+	"Stat 8 Extra 2 Value" = 3.0
+	"Stat 8 Extra 2 LVL Req" = 4.0
+	"Stat 8 Extra 2 Max" = 44.0
+
+["Extra 3"]
+	"Stat 8 Extra 3 ID" = "aaa:aasssa"
+	"Stat 8 Extra 3 Value" = 4.0
+	"Stat 8 Extra 3 LVL Req" = 4.0
+	"Stat 8 Extra 3 Max" = 3.0
+

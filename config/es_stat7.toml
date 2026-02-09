@@ -1,0 +1,34 @@
+
+["Stat 7"]
+	#Defines if the stat is on or off
+	"Stat 7" = true
+	#Defines which name do you want to use for this stat in the menu
+	"Stat 7 Name " = "Stamina"
+	#Defines the ID of the attribute, example: minecraft:generic.attack_speed
+	"Stat 7 ID" = "modid:attribute"
+	#The value added to the attribute per level
+	"Stat 7 Value" = 0.1
+	"Stat 7 Max" = 100.0
+	"Max Stat 7" = 0.0
+
+["Extra 1"]
+	"Stat 7 Extra 1 ID " = "epicfight:staminar"
+	"Stat 7 Extra 1 Value" = 1.0
+	"Stat 7 Extra 1 LVL Req" = 1.0
+	"Stat 7 Extra 1 Max" = 100.0
+
+["Extra 2"]
+	"Stat 7 Extra 2 ID" = "aaaa:aaaa"
+	"Stat 7 Extra 2 Value" = 5.0
+	"Stat 7 Extra 2 LVL Req" = 1.0
+	"Stat 7 Extra 2 Max" = 4000.0
+
+["Extra 3"]
+	"Stat 7 Extra 3 ID" = "modid:attribute"
+	"Stat 7 Extra 3 Value" = 0.1
+	"Stat 7 Extra 3 LVL Req" = 1.0
+	"Stat 7 Extra 3 Max" = 3.0
+
+["Epic Fight Stamina"]
+	"Epic Fight Default Stamina" = 16.0
+

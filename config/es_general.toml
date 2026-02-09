@@ -1,0 +1,76 @@
+
+["Exp Manager"]
+	#Minimal exp value, do not modify if unsure
+	"EXP Min" = 100.0
+	#Maximum exp value, do not modify if unsure
+	"EXP Max" = 200.0
+	#Makes the game allowing to exchange vanilla exp to mod exp
+	"Exp Exchange" = false
+	#The value of the exchange
+	"EXP Exchange Value" = 20.0
+	"EXP Start" = 50.0
+	#1 = only entities with enemy type, 2 = enemy and mob, 3 = enemy, mob and passive, 4 = ememy, mob, passive and player. Formatting is 1.0, 2.0 and etc
+	"Allowed types" = 1.0
+	"All EXP is divided at half" = false
+	#Type = normal, Tag = taken from a tag list the entities that will give you EXP
+	"Exp is taken from" = "Type"
+	#Enables a random value added to the Exp requirement to level up, can be changed setting min and max Exp values
+	"Exp Randomizer" = false
+	#The Default amount of EXP will require to lvl up
+	"Default EXP level Up Value" = 100.0
+	#multiplies EXP taken, values accepted (any > 0.0 and it will be readed as %)
+	"Exp Multiplier" = 100.0
+	"Boss Bonus" = 100.0
+
+[Misc]
+	#Max level for all players in server, it wont apply when you lvlup with commands. Note: Do not set max level too high
+	"Max Player Level" = 200.0
+	"Letter in the lvlup chat" = "M"
+	"SP per level up" = 1.0
+	"Use other methods to open the menu?" = false
+	"Do right click with one item?" = true
+	"Item ID" = "minecraft:stick"
+	"Right clicking a block?" = true
+	"Block ID" = "minecraft:dirt"
+	"Exp Message" = true
+	#Level = Depends on level, Own = Each stat has their own max level
+	"Max Stat Settings" = "Level"
+	"Max Book Use Times" = 1.0
+	"Restart All When Die" = false
+	#Allows placing custom stats info via config
+	"Custom Stats Info" = false
+	#0 = classic, 1 = vanilla, 3 = black
+	"Menu Style" = 1.0
+
+["Epic Fight"]
+	#This feature depends in Epic Fight Mod to work, it makes you have a weight limit while carrying armors.
+	Weight = true
+	#Determines the amount of weight bonus per stat level
+	"Weight per level" = 1.0
+	#Do not modify this :3
+	"Weight at the start" = 40.0
+	#Determines which stat is used to rise weight
+	"Weight Stat" = 3.0
+	#Determines the limit of weight when you enter for first time in a world
+	"Weight Limit Modifier" = 50.0
+
+[Autoleveling]
+	#A cap to Autoleveling mobs
+	"Auto Leveling Cap" = 1.0
+
+[Paraglider]
+	#Remember to edit paraglider config and increase number of improvements as a desired value
+	"Paraglider Upgrade " = true
+	#Leave it at 1 (Recommended) max 5
+	"Paraglider Value" = 1.0
+
+["Custom Stats Info"]
+	"Stat 1 info" = "aaaaaaa"
+	"Stat 2 info" = "affsfaefea"
+	"Stat 3 info" = "gkrspiogksr"
+	"Stat 4 info" = "geopgkesag"
+	"Stat 5 info" = "gprgkprdmafaw"
+	"Stat 6 info" = "piogaekpgoae"
+	"Stat 7 info" = "gjkaijgagaga"
+	"Stat 8 info" = "afawfiajmfia3e"
+

@@ -1,0 +1,14 @@
+# Bỏ qua file hệ thống chạy
+run.sh
+run.bat
+user_jvm_args.txt
+
+
+# Bỏ qua file rác Minecraft
+logs/
+crash-reports/
+debug/
+cache/
+defaultconfigs/
+libraries/
+versions/

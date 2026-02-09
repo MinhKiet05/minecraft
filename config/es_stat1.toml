@@ -1,0 +1,32 @@
+
+["Stat 1"]
+	#Defines if the stat is on or off
+	"Stat 1" = true
+	#Defines which name do you want to use for this stat in the menu
+	"Stat 1 Name " = "Strength"
+	#Defines the ID of the attribute, example: minecraft:generic.attack_speed
+	"Stat 1 ID" = "minecraft:generic.attack_damage"
+	#The value added to the attribute per level
+	"Stat 1 Value" = 0.1
+	"Stat 1 Max" = 100.0
+	#to change this value make sure stat level in general config is set to Own
+	"Max Stat 1" = 0.0
+
+["Extra 1"]
+	"Stat 1 Extra 1 ID" = "modid:attribute"
+	"Stat 1 Extra 1 Value" = 1.0
+	"Stat 1 Extra 1 LVL Req" = 1.0
+	"Stat 1 Extra 1 Max" = 1.0
+
+["Extra 2"]
+	"Stat 1 Extra 2 ID" = "awawa:wawa"
+	"Stat 1 Extra 2 Value" = 1.0
+	"Stat 1 Extra 2 LVL Req" = 1.0
+	"Stat 1 Extra 2 Max" = 1.0
+
+["Extra 3"]
+	"Stat 1 Extra 3 ID" = "aaa:aaaa"
+	"Stat 1 Extra 3 Value" = 1.0
+	"Stat 1 Extra 3 LVL Req" = 1.0
+	"Stat 1 Extra 3 Max" = 1.0
+

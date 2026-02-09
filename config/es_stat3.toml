@@ -1,0 +1,31 @@
+
+["Stat 3"]
+	#Defines if the stat is on or off
+	"Stat 3" = true
+	#Defines which name do you want to use for this stat in the menu
+	"Stat 3 Name " = "Endurance"
+	#Defines the ID of the attribute, example: minecraft:generic.attack_speed
+	"Stat 3 ID" = "minecraft:generic.armor"
+	#The value added to the attribute per level
+	"Stat 3 Value" = 0.1
+	"Stat 3 Max" = 100.0
+	"Max Stat 3" = 0.0
+
+["Extra 1"]
+	"Stat 3 Extra 1 ID" = "aaa:ffg"
+	"Stat 3 Extra 1 Value" = 33.0
+	"Stat 3 Extra 1 LVL Req" = 44.0
+	"Stat 3 Extra 1 Max" = 55.0
+
+["Extra 2"]
+	"Stat 3 Extra 2 ID" = "adad:aaaa"
+	"Stat 3 Extra 2 Value" = 3.0
+	"Stat 3 Extra 2 LVL Req" = 56.0
+	"Stat 3 Extra 2 Max" = 555.0
+
+["Extra 3"]
+	"Stat 3 Extra 3 ID" = "aaa:aafg"
+	"Stat 3 Extra 3 Value" = 444.0
+	"Stat 3 Extra 3 LVL Req" = 44.0
+	"Stat 3 Extra 3 Max" = 333.0
+
