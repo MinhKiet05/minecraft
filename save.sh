@@ -8,7 +8,7 @@ if [ ! -d .git ]; then
     echo "⚠️  Phát hiện mất kết nối Git. Đang khôi phục..."
     git init
     git branch -M main
-    git remote add origin https://github.com/$GITHUB_REPOSITORY.git
+    git remote add origin https://github.com/$GITHUB_REPOSITORY.git 
     # Kéo code về để đồng bộ lịch sử (tránh lỗi conflict)
     git pull origin main --allow-unrelated-histories || echo "⚠️  Không kéo được lịch sử cũ (có thể do repo rỗng), sẽ tạo commit mới."
 fi
