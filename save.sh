@@ -37,9 +37,7 @@ if git diff-index --quiet HEAD --; then
 else
     git commit -m "Auto-save: $(date +'%H:%M %d/%m')"
     
-    # LỆNH QUYỀN LỰC NHẤT: --force
-    # Bất chấp mọi lỗi, bắt GitHub phải giống hệt máy này
-    git push origin main --force
+    git push origin main
     
     echo "✅ ĐÃ LƯU XONG!"
 fi

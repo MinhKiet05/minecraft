@@ -1,68 +1,33 @@
-cat << 'EOF' > save.sh
 #!/bin/bash
 
-echo "=== 💾 CHUẨN BỊ BACKUP SERVER ==="
+RAM_MIN="4G"
+RAM_MAX="6G"
 
-# --- 1. SỬA LỖI MẤT KẾT NỐI GIT ---
-if [ ! -d .git ]; then
-    echo "⚠️  Phát hiện mất kết nối Git. Đang khôi phục..."
-    git init
-    git branch -M main
-    git remote add origin https://github.com/$GITHUB_REPOSITORY.git
-fi
+echo "=== 🚀 START: KHỞI ĐỘNG SERVER ==="
 
-# Cấu hình định danh
-git config user.email "auto-save@codespace.com"
-git config user.name "Backup Bot"
-git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
-
-# --- 2. DỪNG SERVER ---
-if pgrep -f "java" > /dev/null; then
-    echo "⏳ Đang dừng Minecraft Forge (Java)..."
-    pkill -15 -f "java"
-    while pgrep -f "java" > /dev/null; do
-        sleep 1
-    done
-    echo "✅ Server đã dừng hoàn toàn."
-else
-    echo "ℹ️  Server đã tắt sẵn."
-fi
-
-# --- 3. DỌN DẸP RÁC ---
-echo "🧹 Dọn dẹp logs và cache..."
-rm -f logs/*.gz 
-rm -rf cache/* crash-reports/*
-
-# --- 4. BACKUP LÊN GITHUB (ĐÃ SỬA LỖI REJECTED) ---
-echo "☁️  Đang đẩy dữ liệu lên GitHub..."
-
-# Thêm file và commit
-git add .
-if git diff-index --quiet HEAD --; then
-    echo "ℹ️  Không có thay đổi nào mới."
-else
-    git commit -m "Auto-backup: $(date +'%H:%M:%S %d-%m-%Y')"
-    
-    current_branch=$(git branch --show-current)
-    [ -z "$current_branch" ] && current_branch="main"
-    
-    # === ĐOẠN QUAN TRỌNG: THỬ PUSH THƯỜNG TRƯỚC ===
-    if git push origin $current_branch; then
-        echo "✅ ĐÃ LƯU THÀNH CÔNG (Standard Push)!"
+# 1. Kiểm tra Playit (Mạng)
+if ! pgrep -f "playit" > /dev/null; then
+    if [ -f ./playit ]; then
+        echo "🌐 Đang bật Playit ngầm..."
+        nohup ./playit --secret_path playit.toml > logs/playit.log 2>&1 &
+        sleep 3
     else
-        # === NẾU LỖI REJECTED -> CHUYỂN SANG FORCE PUSH ===
-        echo "⚠️  Phát hiện lệch lịch sử (Rejected). Đang kích hoạt chế độ GHI ĐÈ..."
-        echo "👉 Dữ liệu trên GitHub sẽ được cập nhật theo máy chủ này."
-        
-        if git push origin $current_branch --force; then
-            echo "✅ ĐÃ LƯU THÀNH CÔNG (Force Push)!"
-        else
-            echo "❌ LỖI: Không thể đẩy dữ liệu. Vui lòng kiểm tra mạng."
-        fi
+        echo "⚠️  Cảnh báo: Không tìm thấy file playit. Hãy chạy ./init.sh trước."
     fi
 fi
 
-echo "🏁 HOÀN TẤT QUÁ TRÌNH!"
-EOF
+# 2. Hiển thị IP
+IP=$(grep -o '[a-z0-9.-]*\.gl\.joinmc\.link' logs/playit.log | head -1)
+echo "🔗 IP: ${IP:-"Đang lấy..."}"
 
-chmod +x save.sh
+# 3. Tự động tìm file cấu hình Forge
+ARGS_FILE=$(find libraries -name "unix_args.txt" | head -n 1)
+
+if [ -z "$ARGS_FILE" ]; then
+    echo "❌ LỖI: Không tìm thấy unix_args.txt. Kiểm tra lại thư mục libraries."
+    exit 1
+fi
+
+# 4. Chạy Game
+echo "🧟 Đang vào game (No-GUI)..."
+java -Xms$RAM_MIN -Xmx$RAM_MAX @$ARGS_FILE "$@" -nogui
