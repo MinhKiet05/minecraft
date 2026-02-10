@@ -15,11 +15,11 @@
 
 ["MOB SETTINGS"]
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Global Health Modifier" = 1.0
+	"Global Health Modifier" = 0.65
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Global Damage Modifier" = 1.0
+	"Global Damage Modifier" = 0.7
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Global Armor Modifier" = 1.0
+	"Global Armor Modifier" = 0.65
 
 	["MOB SETTINGS"."Flesh Dog"]
 		#Maximum number of dogs in a pack
@@ -62,7 +62,7 @@
 
 	["MOB SETTINGS"."Enlightenment Incubator"]
 		#Default values MaxHealth:100|AttackDamage:0|Armor:8
-		"Enlightenment Incubator Attributes" = "MaxHealth:125|AttackDamage:0|Armor:10"
+		"Enlightenment Incubator Attributes" = "MaxHealth:100|AttackDamage:0|Armor:8"
 		#Interval in ticks for summoning Flesh Hunter Three
 		#Default values 6000
 		#Range: > 1
@@ -82,7 +82,7 @@
 		#Points add every minute
 		#Default values 25
 		#Range: > 1
-		pointsAwardedAwareness = 25
+		pointsAwardedAwareness = 15
 
 	["MOB SETTINGS"."Flesh Villager"]
 		#Default values MaxHealth:22|AttackDamage:4|Armor:1
@@ -94,7 +94,7 @@
 
 	["MOB SETTINGS"."Flesh Unseen"]
 		#Default values MaxHealth:100|AttackDamage:14|Armor:10
-		"Flesh Unseen Attributes" = "MaxHealth:100|AttackDamage:14|Armor:10"
+		"Flesh Unseen Attributes" = "MaxHealth:80|AttackDamage:12|Armor:8"
 
 	["MOB SETTINGS"."Flesh Justice"]
 		#Enable or disable Flesh Justice spawn
@@ -177,11 +177,11 @@
 		#Maximum Embryo Mobs
 		#Default values 60
 		#Range: > 0
-		"Max Embryo Mobs" = 80
+		"Max Embryo Mobs" = 60
 		#Maximum Enlightened Mobs
 		#Default values 45
 		#Range: > 0
-		"Max Enlightened Mobs" = 60
+		"Max Enlightened Mobs" = 45
 		#Despawn time in seconds
 		#Default values 300
 		#Range: > 0
@@ -269,7 +269,7 @@
 		#The number of ticks before Incubator Embryo Phase to evolution (1 second = 20 ticks)
 		#Default values 10000
 		#Range: > 1
-		ticksBeforeTransform = 10000
+		ticksBeforeTransform = 14000
 		#Maximum number of summoned mobs from Incubator Biogenesis stage
 		#Default values 8
 		#Range: > 1
@@ -277,9 +277,9 @@
 		#Points add every minute Embryo
 		#Default values 10
 		#Range: > 1
-		pointsAwardedEmbryo = 10
+		pointsAwardedEmbryo = 6
 		#Default values MaxHealth:60|AttackDamage:0|Armor:5
-		"Embryo Incubator Attributes" = "MaxHealth:75|AttackDamage:0|Armor:5"
+		"Embryo Incubator Attributes" = "MaxHealth:60|AttackDamage:0|Armor:4"
 		#Number of mobs that can be spawned at one time Biogenesis Incubator
 		#Default values 2
 		#Range: > 1
@@ -299,7 +299,7 @@
 	#Interval in ticks for spawning entities near incubators
 	#Default values: 1400
 	#Range: > 20
-	spawnInterval = 1400
+	spawnInterval = 1800
 	#List of dimension IDs where incubators should not spawn.
 	"Incubator Dimension Blacklist" = ["minecraft:the_nether", "minecraft:the_end"]
 	#Points threshold for high spawn chance
@@ -683,7 +683,7 @@
 	#Rate at which mobs spawn from Flesh Boil block (in ticks)
 	#Default values: 1200
 	#Range: > 20
-	fleshBoilSpawnRate = 1600
+	fleshBoilSpawnRate = 2000
 	#How many points will be added per minute for Boil
 	#Default values: 5
 	#Range: > 1

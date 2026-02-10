@@ -434,7 +434,7 @@
 [platinum]
 	#Base Damage for platinum weapons
 	#Range: 0.1 ~ 100.0
-	base_damage = 3.5
+	base_damage = 4.5
 	#Durability for platinum weapons
 	#Range: 1 ~ 100000
 	durability = 1024
@@ -504,7 +504,7 @@
 	[projectiles.diamond_arrow]
 		#Base damage for diamond arrows
 		#Range: 0.1 ~ 100.0
-		base_damage = 3.5
+		base_damage = 4.5
 		#Range muliplier for diamond arrows
 		#Range: 0.1 ~ 100.0
 		range_multiplier = 1.25
@@ -512,7 +512,7 @@
 	[projectiles.netherite_arrow]
 		#Base damage for netherite arrows
 		#Range: 0.1 ~ 100.0
-		base_damage = 4.0
+		base_damage = 5.0
 		#Range muliplier for netherite arrows
 		#Range: 0.1 ~ 100.0
 		range_multiplier = 1.25
@@ -542,7 +542,7 @@
 	[projectiles.diamond_bolt]
 		#Base damage for diamond bolts
 		#Range: 0.1 ~ 100.0
-		base_damage = 5.0
+		base_damage = 6.0
 		#Range muliplier for diamond bolts
 		#Range: 0.1 ~ 100.0
 		range_multiplier = 1.0
@@ -553,7 +553,7 @@
 	[projectiles.netherite_bolt]
 		#Base damage for netherite bolts
 		#Range: 0.1 ~ 100.0
-		base_damage = 5.5
+		base_damage = 6.5
 		#Range muliplier for netherite bolts
 		#Range: 0.1 ~ 100.0
 		range_multiplier = 1.0
