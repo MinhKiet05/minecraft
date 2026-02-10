@@ -1,4 +1,4 @@
-#!/bin/bash
+..#!/bin/bash
 
 # --- CẤU HÌNH RAM (Ưu tiên dùng 6G để Codespace ổn định) ---
 RAM_MIN="4G"
