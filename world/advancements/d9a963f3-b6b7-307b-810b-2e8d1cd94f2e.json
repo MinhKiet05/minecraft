@@ -467,9 +467,11 @@
     "criteria": {
       "cooked_beef": "2026-02-09 13:57:53 +0000",
       "spider_eye": "2026-02-09 13:17:44 +0000",
+      "potato": "2026-02-10 04:19:58 +0000",
       "mutton": "2026-02-09 13:23:32 +0000",
       "bread": "2026-02-09 13:14:51 +0000",
       "rotten_flesh": "2026-02-09 13:14:57 +0000",
+      "melon_slice": "2026-02-10 04:42:15 +0000",
       "carrot": "2026-02-09 13:55:40 +0000"
     },
     "done": false
@@ -2514,6 +2516,12 @@
     },
     "done": true
   },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-02-10 03:31:42 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2026-02-10 03:31:51 +0000"
@@ -2547,12 +2555,6 @@
   "spartanweaponry:recipes/huge_quiver_brace": {
     "criteria": {
       "has_diamond": "2026-02-10 03:31:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_pickaxe": "2026-02-10 03:32:15 +0000"
     },
     "done": true
   },
@@ -2595,12 +2597,6 @@
   "spartanweaponry:recipes/diamond_warhammer": {
     "criteria": {
       "has_diamond": "2026-02-10 03:31:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_pickaxe": "2026-02-10 03:32:15 +0000"
     },
     "done": true
   },
@@ -2688,12 +2684,6 @@
     },
     "done": true
   },
-  "lootr:1barrel": {
-    "criteria": {
-      "opened_barrel": "2026-02-10 03:31:42 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/diamond_greatsword": {
     "criteria": {
       "has_diamond": "2026-02-10 03:31:51 +0000"
@@ -2757,6 +2747,72 @@
   "spartanweaponry:recipes/diamond_glaive": {
     "criteria": {
       "has_diamond": "2026-02-10 03:31:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_pickaxe": "2026-02-10 03:32:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_pickaxe": "2026-02-10 03:32:15 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:scythe": {
+    "criteria": {
+      "has_scythe": "2026-02-10 04:34:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-02-10 04:53:14 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:flanged_mace": {
+    "criteria": {
+      "has_flanged_mace": "2026-02-10 04:26:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-02-10 04:37:35 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_club": {
+    "criteria": {
+      "has_wood_log": "2026-02-10 04:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-02-10 04:53:14 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:root": {
+    "criteria": {
+      "has_handle": "2026-02-10 04:26:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/moss_carpet": {
+    "criteria": {
+      "has_moss_block": "2026-02-10 04:37:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2026-02-10 04:37:35 +0000"
     },
     "done": true
   },
