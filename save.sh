@@ -14,14 +14,14 @@ if [ ! -d .git ]; then
 fi
 git remote set-url origin https://x-access-token:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git
 
-# 2. DỪNG SERVER (MẠNH TAY)
-if pgrep -f "java" > /dev/null; then
-    echo "🔪 Phát hiện Server đang chạy (PID: $(pgrep -f java)). Đang cưỡng chế dừng..."
-    pkill -9 -f "java"
-    # Đợi cho chắc chắn đã tắt
-    while pgrep -f "java" > /dev/null; do sleep 1; done
-    echo "💀 Đã tắt Server."
-fi
+# # 2. DỪNG SERVER (MẠNH TAY)
+# if pgrep -f "java" > /dev/null; then
+#     echo "🔪 Phát hiện Server đang chạy (PID: $(pgrep -f java)). Đang cưỡng chế dừng..."
+#     pkill -9 -f "java"
+#     # Đợi cho chắc chắn đã tắt
+#     while pgrep -f "java" > /dev/null; do sleep 1; done
+#     echo "💀 Đã tắt Server."
+# fi
 
 # 3. DỌN RÁC
 echo "🧹 Đang dọn dẹp file rác..."

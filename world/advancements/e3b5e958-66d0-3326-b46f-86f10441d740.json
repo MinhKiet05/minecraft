@@ -1964,6 +1964,42 @@
     },
     "done": true
   },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2026-02-10 04:14:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2026-02-10 04:14:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2026-02-10 04:14:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2026-02-10 04:14:35 +0000"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2026-02-10 04:14:37 +0000"
+    },
+    "done": true
+  },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2026-02-10 04:14:47 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2026-02-10 04:19:56 +0000"
@@ -1982,13 +2018,43 @@
     },
     "done": true
   },
-  "minecraft:story/obtain_armor": {
+  "spartanweaponry:recipes/cestus": {
     "criteria": {
-      "iron_leggings": "2026-02-10 04:14:32 +0000"
+      "has_leather": "2026-02-10 04:19:56 +0000"
     },
     "done": true
   },
-  "spartanweaponry:recipes/cestus": {
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2026-02-10 04:19:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2026-02-10 04:19:56 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/leather_heavy_crossbow": {
+    "criteria": {
+      "has_leather": "2026-02-10 04:19:56 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/quiver_compartment": {
+    "criteria": {
+      "has_leather": "2026-02-10 04:19:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2026-02-10 04:19:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2026-02-10 04:19:56 +0000"
     },
@@ -2000,21 +2066,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2026-02-10 04:14:35 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_boomerang": {
     "criteria": {
       "has_copper_ingot": "2026-02-10 04:24:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2026-02-10 04:19:56 +0000"
     },
     "done": true
   },
@@ -2066,12 +2120,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2026-02-10 04:19:56 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_tomahawk": {
     "criteria": {
       "has_copper_ingot": "2026-02-10 04:24:03 +0000"
@@ -2081,18 +2129,6 @@
   "spartanweaponry:recipes/copper_pike": {
     "criteria": {
       "has_copper_ingot": "2026-02-10 04:24:03 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/leather_heavy_crossbow": {
-    "criteria": {
-      "has_leather": "2026-02-10 04:19:56 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_club": {
-    "criteria": {
-      "has_wood_log": "2026-02-10 04:39:08 +0000"
     },
     "done": true
   },
@@ -2108,12 +2144,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2026-02-10 04:14:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/brush": {
     "criteria": {
       "has_copper_ingot": "2026-02-10 04:24:03 +0000"
@@ -2123,12 +2153,6 @@
   "spartanweaponry:recipes/copper_parrying_dagger": {
     "criteria": {
       "has_copper_ingot": "2026-02-10 04:24:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
-    "criteria": {
-      "has_raw_gold": "2026-02-10 04:14:35 +0000"
     },
     "done": true
   },
@@ -2144,33 +2168,9 @@
     },
     "done": true
   },
-  "spartanweaponry:recipes/quiver_compartment": {
-    "criteria": {
-      "has_leather": "2026-02-10 04:19:56 +0000"
-    },
-    "done": true
-  },
-  "lootr:10loot": {
-    "criteria": {
-      "loot_stat": "2026-02-10 04:14:47 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2026-02-10 04:19:56 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_dagger": {
     "criteria": {
       "has_copper_ingot": "2026-02-10 04:24:03 +0000"
-    },
-    "done": true
-  },
-  "lootr:1barrel": {
-    "criteria": {
-      "opened_barrel": "2026-02-10 04:14:37 +0000"
     },
     "done": true
   },
@@ -2216,15 +2216,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2026-02-10 04:19:56 +0000"
-    },
-    "done": true
-  },
   "spartanweaponry:recipes/copper_throwing_knife": {
     "criteria": {
       "has_copper_ingot": "2026-02-10 04:24:03 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_club": {
+    "criteria": {
+      "has_wood_log": "2026-02-10 04:39:08 +0000"
     },
     "done": true
   },

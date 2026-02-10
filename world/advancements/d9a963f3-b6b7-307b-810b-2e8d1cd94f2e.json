@@ -2762,15 +2762,9 @@
     },
     "done": true
   },
-  "spartanweaponry:scythe": {
+  "spartanweaponry:root": {
     "criteria": {
-      "has_scythe": "2026-02-10 04:34:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/clay": {
-    "criteria": {
-      "has_clay_ball": "2026-02-10 04:53:14 +0000"
+      "has_handle": "2026-02-10 04:26:36 +0000"
     },
     "done": true
   },
@@ -2780,27 +2774,15 @@
     },
     "done": true
   },
+  "spartanweaponry:scythe": {
+    "criteria": {
+      "has_scythe": "2026-02-10 04:34:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
     "criteria": {
       "has_moss_block": "2026-02-10 04:37:35 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:recipes/wooden_club": {
-    "criteria": {
-      "has_wood_log": "2026-02-10 04:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/brick": {
-    "criteria": {
-      "has_clay_ball": "2026-02-10 04:53:14 +0000"
-    },
-    "done": true
-  },
-  "spartanweaponry:root": {
-    "criteria": {
-      "has_handle": "2026-02-10 04:26:36 +0000"
     },
     "done": true
   },
@@ -2813,6 +2795,24 @@
   "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
       "has_moss_block": "2026-02-10 04:37:35 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/wooden_club": {
+    "criteria": {
+      "has_wood_log": "2026-02-10 04:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2026-02-10 04:53:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2026-02-10 04:53:14 +0000"
     },
     "done": true
   },
