@@ -40,5 +40,11 @@
     "name": "Iet",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5d7c0106-3e8b-3b63-8807-4bb6fa0b7e2d",
+    "name": "Narly",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
