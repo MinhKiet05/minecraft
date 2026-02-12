@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#spartanweaponry:longswords",
+    "#spartanweaponry:battleaxes",
+    "#spartanweaponry:poles",
+    "#spartanweaponry:pikes",
+    "#spartanweaponry:warhammers",
+    "#spartanweaponry:throwing_weapons",
+    "#spartanweaponry:heavy_crossbows",
+    "#spartanweaponry:lances",
+    "#spartanweaponry:greatswords",
+    "#spartanweaponry:halberds",
+    "#spartanweaponry:spears",
+    "#spartanweaponry:daggers",
+    "#spartanweaponry:rapiers",
+    "#spartanweaponry:sabers",
+    "#spartanweaponry:scythes",
+    "#spartanweaponry:clubs"
+  ]
+}

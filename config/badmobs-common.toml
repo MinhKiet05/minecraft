@@ -5,7 +5,7 @@
 	#Spawning options for minecraft:allay
 	[minecraft.allay]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -49,7 +49,7 @@
 	#Spawning options for minecraft:blaze
 	[minecraft.blaze]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -170,7 +170,7 @@
 	#Spawning options for minecraft:elder_guardian
 	[minecraft.elder_guardian]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -181,7 +181,7 @@
 	#Spawning options for minecraft:ender_dragon
 	[minecraft.ender_dragon]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -192,7 +192,7 @@
 	#Spawning options for minecraft:enderman
 	[minecraft.enderman]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -247,7 +247,7 @@
 	#Spawning options for minecraft:ghast
 	[minecraft.ghast]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -258,7 +258,7 @@
 	#Spawning options for minecraft:giant
 	[minecraft.giant]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -291,7 +291,7 @@
 	#Spawning options for minecraft:guardian
 	[minecraft.guardian]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -302,7 +302,7 @@
 	#Spawning options for minecraft:hoglin
 	[minecraft.hoglin]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -434,7 +434,7 @@
 	#Spawning options for minecraft:phantom
 	[minecraft.phantom]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -456,7 +456,7 @@
 	#Spawning options for minecraft:piglin
 	[minecraft.piglin]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
@@ -467,7 +467,7 @@
 	#Spawning options for minecraft:piglin_brute
 	[minecraft.piglin_brute]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
 		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
