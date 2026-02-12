@@ -21,6 +21,7 @@
       "minecraft:beach": "2026-02-11 14:37:57 +0000",
       "minecraft:river": "2026-02-11 13:12:13 +0000",
       "minecraft:stony_shore": "2026-02-12 06:13:27 +0000",
+      "minecraft:cold_ocean": "2026-02-12 15:13:11 +0000",
       "minecraft:forest": "2026-02-11 14:37:17 +0000",
       "minecraft:ocean": "2026-02-12 07:35:51 +0000",
       "minecraft:flower_forest": "2026-02-10 18:23:35 +0000",
@@ -2735,6 +2736,32 @@
       "loot_stat": "2026-02-12 14:33:16 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2026-02-12 15:22:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2026-02-12 15:22:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2026-02-12 15:22:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sheep": "2026-02-12 15:22:53 +0000",
+      "minecraft:cow": "2026-02-12 15:41:18 +0000",
+      "minecraft:chicken": "2026-02-12 15:25:50 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

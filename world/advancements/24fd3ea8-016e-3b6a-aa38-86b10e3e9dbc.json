@@ -4069,15 +4069,27 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2026-02-12 14:31:33 +0000"
+    },
+    "done": true
+  },
   "lootr:50loot": {
     "criteria": {
       "loot_stat": "2026-02-12 14:32:18 +0000"
     },
     "done": true
   },
-  "minecraft:adventure/avoid_vibration": {
+  "spartanweaponry:saber": {
     "criteria": {
-      "avoid_vibration": "2026-02-12 14:31:33 +0000"
+      "has_saber": "2026-02-12 15:59:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2026-02-12 16:03:35 +0000"
     },
     "done": true
   },
