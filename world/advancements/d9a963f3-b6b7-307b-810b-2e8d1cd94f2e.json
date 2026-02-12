@@ -495,6 +495,7 @@
       "cooked_beef": "2026-02-11 13:15:21 +0000",
       "beef": "2026-02-11 13:17:33 +0000",
       "cooked_cod": "2026-02-12 04:35:24 +0000",
+      "pumpkin_pie": "2026-02-12 13:29:49 +0000",
       "bread": "2026-02-11 14:25:54 +0000",
       "golden_apple": "2026-02-11 14:17:35 +0000",
       "rotten_flesh": "2026-02-11 02:13:37 +0000",
@@ -3280,6 +3281,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2026-02-12 10:11:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2026-02-12 10:26:46 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_button": {
     "criteria": {
       "has_planks": "2026-02-12 10:37:30 +0000"
@@ -3316,21 +3329,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/raw_gold": {
-    "criteria": {
-      "has_raw_gold_block": "2026-02-12 10:26:46 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/birch_stairs": {
     "criteria": {
       "has_planks": "2026-02-12 10:37:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_lapis_block": "2026-02-12 10:11:56 +0000"
     },
     "done": true
   },
