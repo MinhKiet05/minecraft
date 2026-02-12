@@ -1082,9 +1082,10 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2026-02-10 17:35:49 +0000",
-      "opened_chest": "2026-02-10 15:01:56 +0000"
+      "opened_chest": "2026-02-10 15:01:56 +0000",
+      "opened_cart": "2026-02-12 16:30:27 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:husbandry/root": {
     "criteria": {
@@ -4090,6 +4091,12 @@
   "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
       "has_glow_ink_sac": "2026-02-12 16:03:35 +0000"
+    },
+    "done": true
+  },
+  "lootr:1cart": {
+    "criteria": {
+      "opened_cart": "2026-02-12 16:30:27 +0000"
     },
     "done": true
   },
