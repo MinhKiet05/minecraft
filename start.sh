@@ -8,7 +8,8 @@ echo "=== 🚀 START: SERVER OPTIMIZED MODE ==="
 
 # 1. Khởi động Playit
 if ! pgrep -f "playit" > /dev/null; then
-    nohup ./playit --secret_path playit.toml > logs/playit.log 2>&1 &
+    mkdir -p logs
+    setsid ./playit --secret_path playit.toml > logs/playit.log 2>&1 &
     sleep 3
 fi
 
