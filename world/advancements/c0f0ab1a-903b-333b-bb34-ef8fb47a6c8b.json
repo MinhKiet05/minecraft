@@ -465,6 +465,7 @@
     "criteria": {
       "minecraft:enderman": "2026-02-12 16:26:51 +0000",
       "minecraft:zombie": "2026-02-10 17:14:54 +0000",
+      "minecraft:drowned": "2026-02-13 05:16:44 +0000",
       "minecraft:zombie_villager": "2026-02-12 06:44:20 +0000"
     },
     "done": false
@@ -2766,6 +2767,12 @@
     },
     "done": false
   },
+  "lootr:1cart": {
+    "criteria": {
+      "opened_cart": "2026-02-12 16:30:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/oak_sign": {
     "criteria": {
       "has_planks": "2026-02-12 16:32:33 +0000"
@@ -2775,24 +2782,6 @@
   "minecraft:recipes/redstone/oak_trapdoor": {
     "criteria": {
       "has_planks": "2026-02-12 16:32:33 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/white_dye": {
-    "criteria": {
-      "has_bone_meal": "2026-02-12 16:48:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2026-02-12 16:48:36 +0000"
-    },
-    "done": true
-  },
-  "lootr:1cart": {
-    "criteria": {
-      "opened_cart": "2026-02-12 16:30:25 +0000"
     },
     "done": true
   },
@@ -2832,12 +2821,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2026-02-12 16:48:36 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/oak_fence_gate": {
     "criteria": {
       "has_planks": "2026-02-12 16:32:33 +0000"
@@ -2856,15 +2839,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
+  "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
-      "has_carrot": "2026-02-12 16:48:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_planks": {
-    "criteria": {
-      "has_logs": "2026-02-12 16:59:30 +0000"
+      "has_rail": "2026-02-12 16:32:33 +0000"
     },
     "done": true
   },
@@ -2874,21 +2851,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_wood": {
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
     "criteria": {
-      "has_log": "2026-02-12 16:59:30 +0000"
+      "has_carrot": "2026-02-12 16:48:15 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/powered_rail": {
+  "minecraft:recipes/misc/white_dye": {
     "criteria": {
-      "has_rail": "2026-02-12 16:32:33 +0000"
+      "has_bone_meal": "2026-02-12 16:48:18 +0000"
     },
     "done": true
   },
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_bone_meal": "2026-02-12 16:48:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2026-02-12 16:48:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2026-02-12 16:48:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2026-02-12 16:59:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2026-02-12 16:59:30 +0000"
     },
     "done": true
   },
