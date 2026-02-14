@@ -3685,15 +3685,15 @@
     },
     "done": true
   },
-  "spartanweaponry:battleaxe": {
-    "criteria": {
-      "has_battleaxe": "2026-02-14 08:05:00 +0000"
-    },
-    "done": true
-  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_boots": "2026-02-14 07:42:11 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:battleaxe": {
+    "criteria": {
+      "has_battleaxe": "2026-02-14 08:05:00 +0000"
     },
     "done": true
   },
