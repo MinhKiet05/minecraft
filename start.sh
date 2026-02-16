@@ -6,12 +6,12 @@ RAM_MAX="6G"
 
 echo "=== 🚀 START: SERVER OPTIMIZED MODE ==="
 
-# 1. Khởi động Playit
-if ! pgrep -f "playit" > /dev/null; then
-    mkdir -p logs
-    setsid ./playit --secret_path playit.toml > logs/playit.log 2>&1 &
-    sleep 3
-fi
+# # 1. Khởi động Playit -- Lỗi--- Tạo terminal mới chạy ./playit để mở port thủ công
+# if ! pgrep -f "playit" > /dev/null; then
+#     mkdir -p logs
+#     setsid ./playit --secret_path playit.toml > logs/playit.log 2>&1 &
+#     sleep 3
+# fi
 
 # 2. Tìm file Forge
 ARGS_FILE=$(find libraries -name "unix_args.txt" | head -n 1)

@@ -3703,5 +3703,65 @@
     },
     "done": true
   },
+  "spartanweaponry:recipes/netherite_arrow": {
+    "criteria": {
+      "has_bow": "2026-02-16 08:45:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-02-16 08:45:49 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:longbow": {
+    "criteria": {
+      "has_longbow": "2026-02-16 08:46:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2026-02-16 08:47:05 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:heavy_crossbow": {
+    "criteria": {
+      "has_heavy_crossbow": "2026-02-16 08:47:19 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/netherite_bolt": {
+    "criteria": {
+      "has_heavy_crossbow": "2026-02-16 08:47:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2026-02-16 08:50:56 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:recipes/small_arrow_quiver": {
+    "criteria": {
+      "has_arrow": "2026-02-16 08:54:36 +0000"
+    },
+    "done": true
+  },
+  "spartanweaponry:small_quiver": {
+    "criteria": {
+      "has_quiver": "2026-02-16 08:55:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-02-16 08:57:49 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
