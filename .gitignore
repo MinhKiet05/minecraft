@@ -12,3 +12,5 @@ cache/
 defaultconfigs/
 libraries/
 versions/
+backups/
+.server.pid
